@@ -50,68 +50,68 @@ export default class DropDownMenu extends React.Component {
     return(
       <nav>
 
-        <div class='drop-btn'>
-          Drop down <span class='fas fa-caret-down'></span>
+        <div className='drop-btn'>
+          Drop down <span className='fas fa-caret-down'></span>
         </div>
 
-        <div class='wrapper'>
-          <ul class='menu-bar'>
+        <div className='wrapper'>
+          <ul className='menu-bar'>
             <li><a href='#'>
-              <div class='icon'> <span class='fas fa-home'></span> </div>
+              <div className='icon'> <span className='fas fa-home'></span> </div>
               Home
             </a></li>
-            <li class='setting-item'><a href='#'>
-              <div class='icon'> <span class='fas fa-cog'></span> </div>
-              Settings & privacy <i class='fas fa-angle-right'></i>
+            <li className='setting-item'><a href='#'>
+              <div className='icon'> <span className='fas fa-cog'></span> </div>
+              Settings & privacy <i className='fas fa-angle-right'></i>
             </a></li>
-            <li class='help-item'><a href='#'>
-              <div class='icon'> <span class='fas fa-question-circle'></span> </div>
-              Help & support <i class='fas fa-angle-right'></i>
+            <li className='help-item'><a href='#'>
+              <div className='icon'> <span className='fas fa-question-circle'></span> </div>
+              Help & support <i className='fas fa-angle-right'></i>
             </a></li>
             <li><a href='#'>
-              <div class='icon'> <span class='fas fa-user'></span> </div>
+              <div className='icon'> <span className='fas fa-user'></span> </div>
               About us
             </a></li>
             <li><a href='#'>
-              <div class='icon'> <span class='fas fa-comment-alt'></span> </div>
+              <div className='icon'> <span className='fas fa-comment-alt'></span> </div>
               Feeback
             </a></li>
           </ul>
 
           {/* Settings && privacy Menu-items */}
-          <ul class='setting-drop'>
-            <li class='arrow back-setting-btn'><span class='fas fa-arrow-left'></span>Settings && privacy</li>
+          <ul className='setting-drop'>
+            <li className='arrow back-setting-btn'><span className='fas fa-arrow-left'></span>Settings && privacy</li>
             <li><a href='#'>
-              <div class='icon'> <span class='fas fa-user'></span> </div>
+              <div className='icon'> <span className='fas fa-user'></span> </div>
               Personal info </a></li>
             <li><a href='#'>
-              <div class='icon'> <span class='fas fa-lock'></span> </div>
+              <div className='icon'> <span className='fas fa-lock'></span> </div>
               Password </a></li>
             <li><a href='#'>
-              <div class='icon'> <span class='fas fa-address-book'></span> </div>
+              <div className='icon'> <span className='fas fa-address-book'></span> </div>
               Activity log </a></li>
             <li><a href='#'>
-              <div class='icon'> <span class='fas fa-globe-asia'></span> </div>
+              <div className='icon'> <span className='fas fa-globe-asia'></span> </div>
               Languages </a></li>
             <li><a href='#'>
-              <div class='icon'> <span class='fas fa-sign-out-alt'></span> </div>
+              <div className='icon'> <span className='fas fa-sign-out-alt'></span> </div>
               Log out </a></li>
           </ul>
 
           {/* Help && support Menu-items */}
-          <ul class='help-drop'>
-            <li class='arrow back-help-btn'><span class='fas fa-arrow-left'></span>Help && support</li>
+          <ul className='help-drop'>
+            <li className='arrow back-help-btn'><span className='fas fa-arrow-left'></span>Help && support</li>
             <li><a href='#'>
-              <div class='icon'> <span class='fas fa-question-circle'></span> </div>
+              <div className='icon'> <span className='fas fa-question-circle'></span> </div>
               Help centre </a></li>
             <li><a href='#'>
-              <div class='icon'> <span class='fas fa-envelope'></span> </div>
+              <div className='icon'> <span className='fas fa-envelope'></span> </div>
               Suppport inbox </a></li>
             <li><a href='#'>
-              <div class='icon'> <span class='fas fa-comment-alt'></span> </div>
+              <div className='icon'> <span className='fas fa-comment-alt'></span> </div>
               Send feeback </a></li>
             <li><a href='#'>
-              <div class='icon'> <span class='fas fa-exclamation-circle'></span> </div>
+              <div className='icon'> <span className='fas fa-exclamation-circle'></span> </div>
               Report problem </a></li>
           </ul>
         </div>

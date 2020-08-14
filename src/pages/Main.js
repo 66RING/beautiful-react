@@ -1,16 +1,15 @@
 import React from 'react'
-import DropDownMenu from "../components/DropDownMenu/DropDownMenu"
+import IconButton from "../components/IconButton/IconButton"
 
 
 export default class Main extends React.Component{
-render(){
-  return (
-    <div class="home">
-      <DropDownMenu></DropDownMenu>
-    </div>
 
-
-  )
-}
+  render(){
+    return (
+      <div className='home'>
+        <IconButton></IconButton>
+      </div>
+    )
+  }
 }
 
